@@ -7,7 +7,6 @@ import Paper from "@mui/material/Paper"
 import Box from "@mui/material/Box"
 import Grid from "@mui/material/Grid"
 import uuid from "react-uuid"
-
 import "./App.css"
 
 interface ITime {
@@ -32,7 +31,7 @@ const rows: IRows[] = [
             {
                 hour: "19",
                 minutes: "00",
-                weight: 0.4,
+                weight: 0.2,
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
             {
@@ -48,7 +47,7 @@ const rows: IRows[] = [
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
         ],
-        sum: 0.8,
+        sum: 0.6,
     },
     {
         id: uuid(),
@@ -59,7 +58,7 @@ const rows: IRows[] = [
             {
                 hour: "17",
                 minutes: "50",
-                weight: 0.4,
+                weight: 0.2,
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
             {
@@ -75,7 +74,7 @@ const rows: IRows[] = [
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
         ],
-        sum: 0.8,
+        sum: 0.6,
     },
     {
         id: uuid(),
@@ -125,11 +124,11 @@ const rows: IRows[] = [
             {
                 hour: "23",
                 minutes: "30",
-                weight: 0.4,
+                weight: 0.2,
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
         ],
-        sum: 1.2,
+        sum: 1,
     },
 
     {
@@ -207,11 +206,11 @@ const rows: IRows[] = [
             {
                 hour: "22",
                 minutes: "30",
-                weight: 0.4,
+                weight: 0.2,
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
         ],
-        sum: 0.8,
+        sum: 0.6,
     },
     {
         id: uuid(),
