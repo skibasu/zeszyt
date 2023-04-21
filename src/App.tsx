@@ -17,7 +17,7 @@ interface ITime {
 }
 interface IRows {
     id: any
-    date: any
+    date: string
     feelings: string
     time: ITime[]
     sum: number
@@ -25,7 +25,7 @@ interface IRows {
 const rows: IRows[] = [
     {
         id: uuid(),
-        date: moment("07-04-2023"),
+        date: "07 / 04 / 2023",
         feelings: `Po okolo kilku minutach od zazycia pierwszej dawki calodniowy bol plecow znaczaco sie zmniejsza. Poprawila się rowniez jakość snu. Dobre samopoczucie i delikatnie rozleniwienie towarzyszy po konsumpcji`,
         time: [
             {
@@ -51,7 +51,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("08-04-2023"),
+        date: "08 / 04 / 2023",
         feelings: `Po okolo kilku minutach od zazycia pierwszej dawki calodniowy bol plecow znaczaco sie zmniejsza. Dobra jakość snu. Dobre samopoczucie i delikatnie rozleniwienie towarzyszy po konsumpcji`,
 
         time: [
@@ -78,7 +78,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("09-04-2023"),
+        date: "09 / 04 / 2023",
         feelings: `Po okolo kilku minutach od zazycia pierwszej dawki calodniowy bol plecow znaczaco sie zmniejsza. Dobra jakość snu. Dobre samopoczucie i delikatnie rozleniwienie towarzyszy po konsumpcji`,
 
         time: [
@@ -105,7 +105,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("10-04-2023"),
+        date: "10 / 04 / 2023",
         feelings: `Po okolo kilku minutach od zazycia pierwszej dawki calodniowy bol plecow znaczaco sie zmniejsza. Dobra jakość snu. Dobre samopoczucie i delikatnie rozleniwienie towarzyszy po konsumpcji i utrzymuje się. Pojawia sie równiez kreatywnosć`,
 
         time: [
@@ -133,7 +133,7 @@ const rows: IRows[] = [
 
     {
         id: uuid(),
-        date: moment("04-10-2023"),
+        date: "04 / 10 / 2023",
         feelings: `Po okolo kilku minutach od zazycia pierwszej dawki calodniowy bol plecow znaczaco sie zmniejsza. Dobra jakość snu. Dobre samopoczucie i delikatnie rozleniwienie towarzyszy po konsumpcji. Pojawia sie równiez kreatywnosć`,
 
         time: [
@@ -160,7 +160,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-11-2023"),
+        date: "04 / 11 / 2023",
         feelings: `Ewidentnie odczuwalne są efekty przeciwbolowe. Dobra jakość snu. Dobre samopoczucie, czasami lekkie zmeczenie towarzyszy po konsumpcji. Kreatywność utrzymuje się.`,
 
         time: [
@@ -193,7 +193,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-12-2023"),
+        date: "04 / 12 / 2023",
         feelings: `Ewidentnie odczuwalne są efekty przeciwbolowe. Dobra jakość snu. Dobre samopoczucie, czasami lekkie zmeczenie towarzyszy po konsumpcji. Kreatywność utrzymuje się.`,
 
         time: [
@@ -214,7 +214,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-13-2023"),
+        date: "04 / 13 / 2023",
         feelings: `Ewidentnie odczuwalne są efekty przeciwbolowe. Dobra jakość snu. Dobre samopoczucie, czasami lekkie zmeczenie towarzyszy po konsumpcji. Kreatywność utrzymuje się.`,
 
         time: [
@@ -241,7 +241,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-14-2023"),
+        date: "04 / 14 / 2023",
         feelings: `Ewidentnie odczuwalne są efekty przeciwbolowe. Dobra jakość snu. Samopoczucie raczej na przecietnym poziomie. Kreatywność lekko opada.`,
 
         time: [
@@ -274,7 +274,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-15-2023"),
+        date: "04 / 15 / 2023",
         feelings: `Efekty przeciwbolowe utrzymują się. Dobra jakość snu. Samopoczucie raczej na przecietnym poziomie, pojawil sie efekt duzego zmeczenia okolo 23 . Kreatywność raczej na srednim ale dobrym poziomie.`,
 
         time: [
@@ -301,7 +301,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-16-2023"),
+        date: "04 / 16 / 2023",
         feelings: `Efekty przeciwbolowe utrzymują się. Dobra jakość snu. Samopoczucie raczej na przecietnym poziomie, zmeczenie i senność okolo 23 . Kreatywność sie ustabilizowala na srednim poziomie z momentami lekkich wzrostów co dwa trzy dni.`,
 
         time: [
@@ -322,7 +322,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-17-2023"),
+        date: "04 / 17 / 2023",
         feelings: `Efekty przeciwbolowe utrzymują się bez zwiekszania dawki. Dobra jakość snu. Samopoczucie raczej na przecietnym poziomie, lekkie zmeczenie podczas dnia i senność okolo 23 .Mała kreatywność.`,
 
         time: [
@@ -349,7 +349,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-18-2023"),
+        date: "04 / 18 / 2023",
         feelings: `Zabieg dentystyczny, znieczulenie i srodki przeciwbolowe podane przez stomatologa. Wstzrymane inhalacje ze wzgledu na zalecenie lekarza`,
 
         time: [],
@@ -357,7 +357,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-19-2023"),
+        date: "04 / 19 / 2023",
         feelings: `Zmiana odmiany na Jack Herrer.Efekty przeciwbolowe na dobrym poziomie. Znacznie wieksza energia, duzo lepsze samopoczucie, odczuwalne momenty euforii - szczególnie podczas samego palenia. Sen w normie. Kreatywnosc na dobrym poziomie.`,
 
         time: [
@@ -384,7 +384,7 @@ const rows: IRows[] = [
     },
     {
         id: uuid(),
-        date: moment("04-20-2023"),
+        date: "04 / 20 / 2023",
         feelings: `Jack Herrer to zdecydowanie lepsza odmiana dla mnie.Duzo lepsze samopoczucie i brak znudzenia. Efekty przecibolowe utrzymuje sie na bardzo dobrym poziomie. Znaczace poprawa samopoczucia brak efektu "zamulenia", który momentami sie pojawiał przy odnianie Monster Kush`,
 
         time: [
@@ -517,10 +517,7 @@ const App: React.FC = () => {
                                                     fontSize: "18px",
                                                 }}
                                             >
-                                                Data:{" "}
-                                                {moment(item.date).format(
-                                                    "DD / MM / YYYY"
-                                                )}
+                                                Data: {item.date}
                                             </h2>
                                         </Item>
                                         <Grid
