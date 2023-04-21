@@ -248,13 +248,13 @@ const rows: IRows[] = [
             {
                 hour: "17",
                 minutes: "00",
-                weight: 0.4,
+                weight: 0.2,
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
             {
                 hour: "20",
                 minutes: "00",
-                weight: 0.4,
+                weight: 0.2,
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
             {
@@ -270,7 +270,7 @@ const rows: IRows[] = [
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
         ],
-        sum: 1.2,
+        sum: 0.8,
     },
     {
         id: uuid(),
@@ -281,7 +281,7 @@ const rows: IRows[] = [
             {
                 hour: "17",
                 minutes: "00",
-                weight: 0.4,
+                weight: 0.2,
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
             {
@@ -297,7 +297,7 @@ const rows: IRows[] = [
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
         ],
-        sum: 0.8,
+        sum: 0.6,
     },
     {
         id: uuid(),
@@ -314,7 +314,7 @@ const rows: IRows[] = [
             {
                 hour: "22",
                 minutes: "30",
-                weight: 0.4,
+                weight: 0.2,
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
         ],
@@ -329,7 +329,7 @@ const rows: IRows[] = [
             {
                 hour: "17",
                 minutes: "00",
-                weight: 0.4,
+                weight: 0.2,
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
             {
@@ -345,7 +345,7 @@ const rows: IRows[] = [
                 type: "Cannabis Flos Monster Kush 18% THC",
             },
         ],
-        sum: 1,
+        sum: 0.8,
     },
     {
         id: uuid(),
