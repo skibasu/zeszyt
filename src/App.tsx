@@ -490,7 +490,7 @@ const App: React.FC = () => {
                                         }}
                                     >
                                         Skret z mieszanka kwiatow "Greengo" plus
-                                        susz
+                                        susz. Filtr weglowy "Purize".
                                     </p>
                                     <figure>
                                         <img
