@@ -1,7 +1,6 @@
 import React from "react"
 import logo from "./med.png"
 import greengo from "./greengo.png"
-import moment from "moment"
 import { styled } from "@mui/material/styles"
 import Paper from "@mui/material/Paper"
 import Box from "@mui/material/Box"
